@@ -1,9 +1,11 @@
 app_name = "visaexpert_design"
-app_title = "visaexpert"
-app_publisher = "Muneeb Akbar"
+app_title = "Design for visa expert "
+app_publisher = "VisaExpert ERP"
 app_description = "this app for visaexpert design "
-app_email = "test@gmail.com"
+app_email = "info@visaexpert.com"
 app_license = "mit"
+app_logo_url = "/assets/visaexpert_design/images/visaexpert_logo.png"
+
 
 # Apps
 # ------------------
@@ -23,7 +25,8 @@ app_license = "mit"
 
 # Includes in <head>
 # ------------------
-
+app_include_css = "visaexpert_design.bundle.css"
+app_include_js = "visaexpert_design.bundle.js"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/visaexpert_design/css/visaexpert_design.css"
 # app_include_js = "/assets/visaexpert_design/js/visaexpert_design.js"
@@ -57,7 +60,7 @@ app_license = "mit"
 # ----------
 
 # application home page (will override Website Settings)
-# home_page = "login"
+home_page = "login"
 
 # website user home page (by Role)
 # role_home_page = {
@@ -81,6 +84,10 @@ app_license = "mit"
 
 # Installation
 # ------------
+website_context = {
+	"favicon": "/assets/visaexpert_design/images/visaExpertLogo.png",
+	"splash_image": "/assets/visaexpert_design/images/visaexpert_logo.png",
+}
 
 # before_install = "visaexpert_design.install.before_install"
 # after_install = "visaexpert_design.install.after_install"
